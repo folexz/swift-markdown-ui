@@ -115,6 +115,14 @@ var body: some View {
 }
 ```
 
+### Revealing Markdown word by word
+
+Display Markdown text progressively without exposing markup tags:
+
+```swift
+WordByWordMarkdown("This is **bold** and *italic* text.")
+```
+
 ### Styling Markdown
 
 Markdown views use a basic default theme to display the contents. For more information, read about

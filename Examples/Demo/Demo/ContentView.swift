@@ -93,6 +93,13 @@ struct ContentView: View {
           } label: {
             Label("Lazy Loading", systemImage: "scroll")
           }
+          NavigationLink {
+            WordByWordView()
+              .navigationTitle("Word by Word")
+              .navigationBarTitleDisplayMode(.inline)
+          } label: {
+            Label("Word by Word", systemImage: "text.word.wrap")
+          }
         }
       }
       .navigationTitle("MarkdownUI")
